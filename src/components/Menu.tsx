@@ -145,7 +145,7 @@ export default function Menu() {
                 <h3 className="font-serif text-xl sm:text-2xl font-bold text-gold mb-1">
                   {category.title}
                 </h3>
-                <p className="text-cream/50 text-sm mb-6 italic">
+                <p className="text-cream/70 text-sm mb-6 italic">
                   {category.subtitle}
                 </p>
 
@@ -160,7 +160,7 @@ export default function Menu() {
                           <p className="text-cream font-semibold">
                             {item.name}
                           </p>
-                          <p className="text-cream/40 text-xs">
+                          <p className="text-cream/60 text-xs">
                             {item.serves}
                           </p>
                         </div>
@@ -169,7 +169,7 @@ export default function Menu() {
                         </span>
                       </div>
                       {item.desc && (
-                        <p className="text-cream/50 text-sm mt-1">
+                        <p className="text-cream/70 text-sm mt-1">
                           {item.desc}
                         </p>
                       )}

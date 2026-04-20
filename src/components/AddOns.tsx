@@ -53,9 +53,9 @@ export default function AddOns() {
                 "Custom orders welcomed — pricing may vary",
               ].map((info) => (
                 <div key={info} className="flex items-start gap-3">
-                  <span className="text-gold mt-0.5 text-lg flex-shrink-0">
-                    &#9829;
-                  </span>
+                  <svg className="w-4 h-4 text-gold mt-1 flex-shrink-0" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
                   <p className="text-cream/80 text-sm sm:text-base">{info}</p>
                 </div>
               ))}

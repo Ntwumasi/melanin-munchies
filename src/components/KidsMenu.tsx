@@ -43,11 +43,6 @@ export default function KidsMenu() {
       id="kids"
       className="py-20 sm:py-28 bg-gradient-to-b from-cream to-cream-dark relative overflow-hidden"
     >
-      {/* Decorative dots */}
-      <div className="absolute top-10 left-10 w-4 h-4 bg-accent-pink/40 rounded-full" />
-      <div className="absolute top-20 right-20 w-3 h-3 bg-gold/30 rounded-full" />
-      <div className="absolute bottom-20 left-1/4 w-5 h-5 bg-tan/30 rounded-full" />
-
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <FadeIn>
           <div className="text-center mb-16">
